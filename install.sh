@@ -21,6 +21,7 @@ elif [ -d /etc/udev/rules.d/ ]; then
 else
   echo "Udev rules route not found, hence cancelling installation"
   echo "Expected locations: /etc/udev/rules.d/ OR /lib/udev/rules.d/"
+  exit 0
 fi
 
 echo "Installing udev hwdb"
