@@ -1,20 +1,12 @@
 # sennheiser-gsx-1000 / 1200 Pro
 Getting the Sennheiser GSX 1000 / 1200 Pro DAC to work under Linux
 
-*Note:* [Pulse Audio 15](https://github.com/pulseaudio/pulseaudio/blob/v15.0/NEWS#L17) added native support for the GSX-1XXX series.
-
 ![pavucontrol one](https://raw.githubusercontent.com/evilphish/sennheiser-gsx-1000/master/images/pavucontrol.png)
 ![pavucontrol two](https://raw.githubusercontent.com/evilphish/sennheiser-gsx-1000/master/images/pavucontrol2.png)
 
 ## Installation
 
-Get the repo
-```
-git clone https://github.com/evilphish/sennheiser-gsx-1000
-cd sennheiser-gsx-1000
-```
-
-Then just run
+Run
 
 ```
 # gsx-1000
@@ -26,7 +18,7 @@ Then just run
 
 You might need to consider to install the channel-swap variant if your center seems "lefty" or your subfoover feels "righty" see [this issue](https://github.com/evilphish/sennheiser-gsx-1000/issues/9)
 
-## Deinstallation
+## Uninstallation
 
 ```
 # gsx-1000
